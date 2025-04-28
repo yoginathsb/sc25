@@ -1,10 +1,15 @@
 # Massively Parallel What-If Analyses for In-Vitro Experimental Design of Precision Oncology on the Frontier Supercomputer
 
-We provide the following attachments 
+We provide the following attachments
+
 (1) gmsim_cloner executable
-(2) efficiency.tgz
+
+(2) efficiency.tgz file which contains the raw output logs used for generating plots and tables
+
 (3) treatments.txt and rateData.txt files along with other relevant input files in folders Treatments and RateData.
+
 (4) An example slurm script
+
 (5) Raw output data files used to visually verify $k^l$-tree evaluation
 
 
