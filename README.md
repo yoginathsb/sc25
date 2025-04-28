@@ -4,7 +4,8 @@ We provide the following attachments
 (1) gmsim_cloner executable
 (2) efficiency.tgz
 (3) treatments.txt and rateData.txt files along with other relevant input files in folders Treatments and RateData.
-(4) An example slurm script 
+(4) An example slurm script
+(5) Raw output data files used to visually verify $k^l$-tree evaluation
 
 
 Additional Notes:
@@ -29,4 +30,6 @@ Each values separated by " " and they can be identified by the following column 
 
 [3] The Treatment folder contains six files, each of which correspond to a unique type of tumor intervention.
 
-[4] The RateData folder contains phase0.csv and phase1.csv files, which contain precalculated DNA damage and repair parameters derived using the [MEDRAS software] (https://github.com/sjmcmahon/MEDRAS). These parameters include rates for double-strand break (DSB) formation, DNA repair, and misrepair, and they depend on several factors: the radiation type, Linear Energy Transfer (LET), the nuclear volume of the cell, and the cell cycle phase. The parameters are essential for modeling the initial induction of DSBs and their subsequent repair dynamics according to the [MEDRAS model](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.689112/full).
+[4] The RateData folder contains phase0.csv and phase1.csv files, which contain precalculated DNA damage and repair parameters derived using the [MEDRAS software](https://github.com/sjmcmahon/MEDRAS). These parameters include rates for double-strand break (DSB) formation, DNA repair, and misrepair, and they depend on several factors: the radiation type, Linear Energy Transfer (LET), the nuclear volume of the cell, and the cell cycle phase. The parameters are essential for modeling the initial induction of DSBs and their subsequent repair dynamics according to the [MEDRAS model](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.689112/full).
+
+
