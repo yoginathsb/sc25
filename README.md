@@ -10,9 +10,6 @@ We provide the following attachments
 
 (4) An example slurm script
 
-(5) Raw output data files used to visually verify $k^l$-tree evaluation
-
-
 Additional Notes:
 =================
 
