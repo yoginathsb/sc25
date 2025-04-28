@@ -10,11 +10,10 @@ We provide the following attachments
 Additional Notes:
 =================
 
-efficiency.tgz filexs contain several output files. Every output file correspond to a single parallel run. 
+efficiency.tgz files contain several output files. Every output file corresponds to a single parallel run. 
 All the parallel ranks write to a single file in a single run.
-
-The runtimes measured b MPI_Wtime by each rank is written as a line strating with "# " to the output file. 
-Each values separated by " " are identified by the following column names
+The runtimes measured b MPI_Wtime by each rank is written as a line that starts with a "# " in the output file. 
+Each values separated by " " and they can be identified by the following column names
 
 (# Rank branches levels init create exec num_rebase rebase spawn simadv total mem num_clones)
 
