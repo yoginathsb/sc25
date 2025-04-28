@@ -3,17 +3,20 @@
 We provide the following attachments 
 (1) gmsim_cloner executable
 (2) efficiency.tgz
-(3) treatments.txt and rateData.txt files along with other relevant input files 
+(3) treatments.txt and rateData.txt files along with other relevant input files in folders Treatments and RateData.
+(4) An example slurm script 
 
 
-Each tgz files contain several output files. Every output file correspond to a single parallel run. 
+Additional Notes:
+=================
+
+efficiency.tgz filexs contain several output files. Every output file correspond to a single parallel run. 
 All the parallel ranks write to a single file in a single run.
 
 The runtimes measured b MPI_Wtime by each rank is written as a line strating with "# " to the output file. 
 Each values separated by " " are identified by the following column names
 
 (# Rank branches levels init create exec num_rebase rebase spawn simadv total mem num_clones)
-
 
 
 [1] gmsim_cloner executable requires rocm-5.4.3 module to be loaded for execution
